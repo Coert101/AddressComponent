@@ -1,4 +1,5 @@
-# address-component
+# VueJS Address Component
+A basic VueJS addressing autocomplete component, which can be used to autocomplete addresses using the Google Maps Places API.
 
 ## Project setup
 ```
@@ -32,3 +33,4 @@ npm run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
