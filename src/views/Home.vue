@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <address-auto-fill></address-auto-fill>
+    <div class="address-container">
+      <address-auto-fill></address-auto-fill>
+    </div>
   </div>
 </template>
 
@@ -15,3 +16,10 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+  .address-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+</style>
